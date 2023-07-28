@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "elaqelers",
+  "info": {
+    "singularName": "elaqeler",
+    "pluralName": "elaqelers",
+    "displayName": "Elaqeler",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "biginteger"
+    },
+    "messagee": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

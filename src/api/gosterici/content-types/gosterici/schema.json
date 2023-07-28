@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gostericis",
+  "info": {
+    "singularName": "gosterici",
+    "pluralName": "gostericis",
+    "displayName": "Gosterici"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ixtisas_sayi": {
+      "type": "biginteger"
+    }
+  }
+}

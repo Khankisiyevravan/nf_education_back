@@ -1,0 +1,34 @@
+{
+  "name": "nfeducationbackend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "^4.11.5",
+    "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/strapi": "4.11.5",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-menus": "^1.4.3",
+    "strapi-plugin-multi-select": "^1.2.2",
+    "strapi-plugin-notes": "^1.0.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-todo": "^0.0.9"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "09222cda-cc62-46b4-a3aa-b042dde78ba6"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
