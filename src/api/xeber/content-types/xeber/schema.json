@@ -4,7 +4,8 @@
   "info": {
     "singularName": "xeber",
     "pluralName": "xebers",
-    "displayName": "Xeberler"
+    "displayName": "Xeberler",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,17 @@
     },
     "tarix": {
       "type": "datetime"
+    },
+    "xeber_tipi": {
+      "type": "enumeration",
+      "enum": [
+        "Ümumi",
+        "Televiziya",
+        "Ukrayna ",
+        "Polşa",
+        "Almaniya",
+        "Türkiyə"
+      ]
     }
   }
 }
