@@ -43,12 +43,12 @@
     "xeber_tipi": {
       "type": "enumeration",
       "enum": [
-        "Ümumi",
-        "Televiziya",
-        "Ukrayna ",
-        "Polşa",
-        "Almaniya",
-        "Türkiyə"
+        "all",
+        "tv",
+        "ukraine ",
+        "poland",
+        "germany",
+        "turkey"
       ],
       "pluginOptions": {
         "i18n": {
