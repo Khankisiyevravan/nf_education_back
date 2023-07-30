@@ -161,7 +161,13 @@
         "Offline Əyani",
         "Qiyabi",
         "Online Qiyabi",
-        "Offline Qiyabi"
+        "Offline Qiyabi",
+        "Tam zamanlı eğitim",
+        "Online eğitim",
+        "Денна форма навчання",
+        "Заочне навчання",
+        "Correspondence education",
+        "Full-time education"
       ],
       "customField": "plugin::multi-select.multi-select"
     }
