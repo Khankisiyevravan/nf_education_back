@@ -79,14 +79,6 @@
           "localized": true
         }
       }
-    },
-    "news_type": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
     }
   }
 }
