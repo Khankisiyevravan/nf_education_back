@@ -164,6 +164,12 @@
         "Offline Qiyabi"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "telebelers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::telebe.telebe",
+      "mappedBy": "universitet"
     }
   }
 }

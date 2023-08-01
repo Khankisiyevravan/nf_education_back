@@ -53,15 +53,6 @@
         }
       }
     },
-    "Universitet": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "ixtisas": {
       "type": "string",
       "required": true,
@@ -94,6 +85,12 @@
           "localized": true
         }
       }
+    },
+    "universitet": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::universitet.universitet",
+      "inversedBy": "telebelers"
     }
   }
 }
